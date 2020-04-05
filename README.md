@@ -1,9 +1,9 @@
-#CRUD REGISTER
+**CRUD REGISTER**
 
 - This repository contais the test for Python Developer requested by _Victoria Caldas;
 - This API will be receive a value of payment and will be calculate the smallest number of banknotes to give back the change.
 
-##How to Run
+**How to Run**
 1. Create a folder to clone this repository from Github;
 2. Within this folder, type the command below:
     - SSH: 'git clone git@github.com:gpstrutz/register-box.git'
