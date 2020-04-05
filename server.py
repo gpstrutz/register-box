@@ -24,8 +24,8 @@ def get_boxes():
 
 @app.route('/box', methods=['POST'])
 def add_record():
-    banknotes = (100, 50, 10, 5, 1)
-    coins = (0.50, 0.10, 0.05, 0.01)
+    banknotes = [100, 50, 10, 5, 1]
+    coins = [0.50, 0.10, 0.05, 0.01]
 
     body = request.get_json()
     total_value = body.get('total_value')
